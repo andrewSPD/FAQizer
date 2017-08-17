@@ -3,10 +3,11 @@ Prepare Enviroment:
 2. Install RVM
         $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
         $ \curl -sSL https://get.rvm.io | bash -s stable
+        $ source /home/cabox/.rvm/scripts/rvm
 3.  Install Ruby 2.4x 
-        $ rmv install 2.4
+        $ rvm install 2.4
 3. Install compass
         $ gem install compass
 4.Install generators
-        $npm install -g generator-karma generator-angular
-5.
+        $ npm install -g generator-karma generator-angular
+5.      
